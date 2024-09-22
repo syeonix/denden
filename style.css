@@ -1,0 +1,166 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .cta {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .bg-light {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+        }
+
+        .bg-neutral {
+            background-color: #e8e8e8;
+            border: 1px solid #bbb;
+        }
+
+
+         /* Responsive-accent Styles */
+        .bg-accent {
+            background-color: #4379F2;
+            border: 1px solid #a5cbe7;
+        }
+
+        .responsive-accent {
+            padding: 10px 20px;
+            background-color: #FFFFFF;
+            color: #4379F2;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .responsive-accent1 {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .responsive-accent2 {
+            padding: 10px 20px;
+            background-color: #4379F2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .responsive-accent:hover {
+            background-color: #E1D7C6;
+        }
+        .responsive-accent1:hover {
+            background-color: #134B70;
+        }
+        .responsive-accent2:hover {
+            background-color: #5AB2FF;
+        }
+
+        .bg-accent {
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+
+
+            /* Responsive-dark Styles */
+        .bg-dark {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #000;
+        }
+        .responsive-dark {
+            padding: 10px 20px;
+            background-color: #4379F2;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .responsive-dark1 {
+            padding: 10px 20px;
+            background-color: #FFFFFF;
+            color: #4379F2;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .responsive-dark2 {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .responsive-dark:hover {
+            background-color: #E1D7C6;
+        }
+        .responsive-dark1:hover {
+            background-color: #134B70;
+        }
+        .responsive-dark2:hover {
+            background-color: #5AB2FF;
+        }
+        
+        .bg-dark {
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .responsive-button,
+        .responsive-button2,
+        .responsive-button3 {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .responsive-button:hover,
+        .responsive-button2:hover,
+        .responsive-button3:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .cta {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .responsive-button,
+            .responsive-button2,
+            .responsive-button3 {
+                flex: 1; /* Make buttons full width on small screens */
+                text-align: center;
+            }
+        }
+
+        /* Active style for click effect */
+        .active {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
